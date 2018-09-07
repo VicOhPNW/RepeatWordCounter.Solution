@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
-using WordCounter.Models;
+using WordCounter;
 using System;
 
-namepsace WordCounter.Tests
+namespace WordCounter
 {
   [TestClass]
   public class RepeatCounterTest
@@ -19,7 +19,7 @@ namepsace WordCounter.Tests
       string result = newRepeatCounter.GetSearchInput();
 
       //Assert
-      Assert.AreEquual(searchInput, result);
+      Assert.AreEqual(searchInput, result);
     }
   }
 }
