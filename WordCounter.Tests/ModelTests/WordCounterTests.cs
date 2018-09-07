@@ -6,7 +6,7 @@ using System;
 namepsace WordCounter.Tests
 {
   [TestClass]
-  public class RepeatCounterTest : IDisposable
+  public class RepeatCounterTest
   {
     [TestMethod]
     public void GetSearchInput_ReturnsSearchInput_String()

@@ -8,7 +8,7 @@ namespace WordCounter.Models
     private string _searchInput; //property - user input for List
     public RepeatCounter (string searchInput) //constructor
     {
-      // _searchInput = searchInput; uncomment to get test to pass
+      _searchInput = searchInput;
     }
 
     public string GetSearchInput()
