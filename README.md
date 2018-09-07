@@ -9,13 +9,13 @@ _Word Counter_ is a program that checks how frequently a word appears in a given
 
 This is an exercise to apply and test our understanding of C# unit week 1 lessons.
 
-| Primary Objectives       |
+Primary Objectives
 |:-------------:|
-| Did you submit your English specs as a separate text file (or README)? Was it committed before you began your code? |
-| Do your specs include specific input and output as well as a descriptive sentence? |
-| Do your specs start with the simplest case and progress to more complex cases? Do they cover enough different input values? |
-| Have all specs been written up correctly as test methods? |
-| Are all tests passing? Does your method correctly return the number of repeats? |
+* Did you submit your English specs as a separate text file (or README)? Was it committed before you began your code?
+* Do your specs include specific input and output as well as a descriptive sentence?
+* Do your specs start with the simplest case and progress to more complex cases? Do they cover enough different input values?
+* Have all specs been written up correctly as test methods?
+* Are all tests passing? Does your method correctly return the number of repeats?
 
 
 ## *Specifications*
