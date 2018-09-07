@@ -22,7 +22,7 @@ Primary Objectives
 
 | Behavior         |Input Example| Output Example|
 |:-------------:|:-------------:|:-------------:|
-| The program should validate the user's check input as non-numeric, since the program is checking for full word matches. | 1 | false |
+| The program should validate the user's search input. | "apple" | "apple" |
 | The program should be able to validate the user has entered a list to search. | {"a", "it", "to", "a", "and"} | {"a", "it", "to", "a", "and"} |
 | The program validates a word can be found in a list. | search "a" | true |
 | The program is able validate and count the number of times it is found in a list. | search "a" | 1 (in a list where "a" only appears once) |
