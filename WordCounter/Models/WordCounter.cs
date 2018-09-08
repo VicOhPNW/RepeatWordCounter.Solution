@@ -18,7 +18,7 @@ namespace WordCounter
 
     public void SetSearchInput (string newSearchInput)
     {
-      // _searchInput = newSearchInput
+      _searchInput = newSearchInput;
     }
   }
 }
