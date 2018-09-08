@@ -12,7 +12,7 @@ namespace WordCounter
     public void GetSearchInput_ReturnsSearchInput_String()
     {
       //Arrange
-      string searchInput = "a";
+      string searchInput = "apple";
       RepeatCounter newRepeatCounter = new RepeatCounter(searchInput);
 
       //Act
@@ -20,6 +20,22 @@ namespace WordCounter
 
       //Assert
       Assert.AreEqual(searchInput, result);
+    }
+
+    [TestMethod]
+    public void SetSearchInput_SetSearchInput_String()
+    {
+      //Arrange
+      string searchInput = "apple";
+      RepeatCounter newRepeatCounter = new RepeatCounter(searchInput);
+
+      //Act
+      string updatedSearchInput = "orange";
+      newRepeatCounter.SetSearchInput(updatedSearchInput);
+      string result = newRepeatCounter.GetSearchInput();
+
+      //Assert
+      Assert.AreEqual(updatedSearchInput, result);
     }
   }
 }
