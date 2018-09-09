@@ -37,19 +37,5 @@ namespace WordCounter
       //Assert
       Assert.AreEqual(updatedSearchInput, result);
     }
-
-    [TestMethod]
-    public void GetFindInput_ReturnFindInput_String()
-    {
-      //Arrange
-      string findInput = "apple";
-      RepeatCounter newRepeatCounter = new RepeatCounter(findInput);
-
-      //Act
-      string result = newRepeatCounter.GetFindInput();
-
-      //Assert
-      Asser.AreEqual(findInput, result);
-    }
   }
 }
