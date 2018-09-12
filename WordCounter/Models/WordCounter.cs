@@ -5,20 +5,10 @@ namespace WordCounter
 {
   public class RepeatCounter
   {
-    private string _searchInput; //property - user input for Search
+    private string _sentence; //property - user input to be searched
 
-    public RepeatCounter(string searchInput) //constructor
+    public RepeatCounter(string sentence) //constructor
     {
-      _searchInput = searchInput;
-    }
+      _sentence = sentence;
 
-    public string GetSearchInput() //method for search input validation
-    {
-      return _searchInput;
     }
-    public void SetSearchInput(string newSearchInput)
-    {
-      _searchInput = newSearchInput;
-    }
-  }
-}
