@@ -16,21 +16,28 @@ This is an exercise to apply and test our understanding of C# unit week 1 lesson
 
 
 ## *Specifications*
-1. The program should validate the user's search input.
+1. The program should validate the user entered a word or sentence (what will be _searched_) as an input.
     * input: "apple"
     * output: "apple"
-
-2. The program should validate the user's find input as true.
+```
+A single word was chosen for input/output because it's enough to pass test and confirm validity.
+```
+2. The program should validate the user entered a word (what will be _**searched for**_) as an input.
   * input: "apple"
   * output: "apple"
-
+```
+A single word was chosen for input/output because it's enough to pass test.
+```
 3. The program is able validate and count the number of times it is found in a list.
   * input: "apple, apple"
   * output: 2
-
+  ```
+  Two of the same word was used as input as it's the simplest number to count to for ensuring loop is working/counting as intended.
+  ```
 
 ## *Known Bugs & Issues*
 * No user interface. This currently only includes logic and testing.
+
 
 ## *Setup/Installation Requirements*
 
