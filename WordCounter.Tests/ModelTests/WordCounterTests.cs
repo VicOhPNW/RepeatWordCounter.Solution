@@ -21,5 +21,21 @@ namespace WordCounter.Tests
       //Assert
       Assert.AreEqual(sentence, result);
     }
+
+    [TestMethod]
+    public void SetSentence_SetSentenceInput_String()
+    {
+      //Arrange
+      string sentence = "apple";
+      RepeatCounter newRepeatCounter = new RepeatCounter(sentence);
+
+      //Act
+      string updatedSentence = "orange";
+      newRepeatCounter.SetSentence(updatedSentence);
+      string result = newRepeatCounter.GetSentence();
+
+      //Assert
+      Assert.AreEqual(updatedSentence, result);
+    }
   }
 }
