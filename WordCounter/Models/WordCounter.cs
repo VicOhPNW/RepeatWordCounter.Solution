@@ -19,7 +19,7 @@ namespace WordCounter.Models
     }
     public void SetSentence(string newSentence)
     {
-      // _sentence = sentence;
+      _sentence = newSentence;
     }
 
   }
