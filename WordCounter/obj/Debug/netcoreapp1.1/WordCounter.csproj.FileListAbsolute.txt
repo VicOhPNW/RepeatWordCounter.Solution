@@ -13,3 +13,12 @@
 /Users/victoria/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.AssemblyInfo.cs
 /Users/victoria/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.dll
 /Users/victoria/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.pdb
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.csprojAssemblyReference.cache
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.csproj.CoreCompileInputs.cache
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.AssemblyInfoInputs.cache
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.AssemblyInfo.cs
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.dll
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.pdb
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.deps.json
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.dll
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.pdb
