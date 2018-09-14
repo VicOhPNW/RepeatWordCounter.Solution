@@ -1,14 +1,14 @@
-using System;
 using System.Collections.Generic;
+using System;
 
 namespace WordCounter.Models
 {
   public class RepeatCounter
   {
-    private static string _sentence; //property - user input to be searched
-    private static string _word;
+    private string _sentence; //property - user input to be searched
+    private string _word;
 
-    public RepeatCounter(string sentence, string word) //constructor
+    public RepeatCounter(string sentence, string word)  //constructor
     {
       _sentence = sentence; //to be searched
       _word = word;         //to be counted

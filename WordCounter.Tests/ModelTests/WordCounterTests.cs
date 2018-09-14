@@ -14,7 +14,7 @@ namespace WordCounter.Tests
     {
       //Arrange
       string sentence = "apple";
-      RepeatCounter newRepeatCounter = new RepeatCounter(sentence);
+      RepeatCounter newRepeatCounter = new RepeatCounter(sentence, "");
 
       //Act
       string result = newRepeatCounter.GetSentence();
@@ -28,7 +28,7 @@ namespace WordCounter.Tests
     {
       //Arrange
       string sentence = "apple";
-      RepeatCounter newRepeatCounter = new RepeatCounter(sentence);
+      RepeatCounter newRepeatCounter = new RepeatCounter(sentence, "");
 
       //Act
       string updatedSentence = "orange";
@@ -45,7 +45,7 @@ namespace WordCounter.Tests
     {
       //Arrange
       string word = "apple";
-      RepeatCounter newRepeatCounter = new RepeatCounter(word);
+      RepeatCounter newRepeatCounter = new RepeatCounter("", word);
 
       //Act
       string result = newRepeatCounter.GetWord();
