@@ -5,14 +5,16 @@ namespace WordCounter.Models
 {
   public class RepeatCounter
   {
-    private string _sentence; //property - user input to be searched
+    private static string _sentence; //property - user input to be searched
+    private static string _word;
 
-    public RepeatCounter(string sentence) //constructor
+    public RepeatCounter(string sentence, string word) //constructor
     {
-      _sentence = sentence;
+      _sentence = sentence; //to be searched
+      _word = word;         //to be counted
     }
 
-    //Methods
+    // Methods
     public string GetSentence()
     {
       return _sentence;
@@ -21,6 +23,14 @@ namespace WordCounter.Models
     {
       _sentence = newSentence;
     }
+    public string GetWord()
+    {
+      return _word;
+    }
+    // public void SetWord(string newWord)
+    // {
+    //   _word = newWord;
+    // }
 
   }
 }
