@@ -8,7 +8,7 @@ namespace WordCounter.Tests
   [TestClass]
   public class RepeatCounterTest
   {
-    //validate sentence
+    //test to validate sentence
     [TestMethod]
     public void GetSentence_ReturnsSentenceInput_String()
     {
@@ -39,7 +39,7 @@ namespace WordCounter.Tests
       Assert.AreEqual(updatedSentence, result);
     }
 
-    // validate word
+    //test to validate word
     [TestMethod]
     public void GetWord_ReturnsWordInput_String()
     {
@@ -70,5 +70,20 @@ namespace WordCounter.Tests
       Assert.AreEqual(updatedWord, result);
     }
 
+    //test to validate word count
+    [TestMethod]
+    public void CountRepeatWords_ValidateWordCountMethod_int()
+    {
+      //Arrange
+      string word = "apple";
+      string sentence = "apple apple";
+      RepeatCounter newRepeatCounter = new RepeatCounter(sentence, word);
+
+      //Act
+      int result = newRepeatCounter.CountRepeatWords();
+
+      //Assert
+      Assert.AreEqual(2, result);
+    }
   }
 }

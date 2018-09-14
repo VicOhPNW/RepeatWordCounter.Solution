@@ -15,6 +15,7 @@ namespace WordCounter.Models
     }
 
     // Methods
+    //validate input sentence
     public string GetSentence()
     {
       return _sentence;
@@ -23,6 +24,7 @@ namespace WordCounter.Models
     {
       _sentence = newSentence;
     }
+    //validate input word
     public string GetWord()
     {
       return _word;
@@ -31,6 +33,22 @@ namespace WordCounter.Models
     {
       _word = newWord;
     }
+    //count the number of words
+    public int CountRepeatWords()
+    {
+      string findWord = _word.ToLower();
+      string lowerCaseSentence = _sentence.ToLower();
+      string[] sentenceToArray = lowerCaseSentence.Split();
+      int count = 0;
 
+      foreach(string word in sentenceToArray)
+      {
+        if(word == findWord)
+        {
+          count += 1;
+        }
+      }
+      return count;
+    }
   }
 }
