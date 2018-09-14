@@ -37,6 +37,7 @@ A single word was chosen for input/output because it's enough to pass test.
 
 ## *Known Bugs & Issues*
 * No user interface. This currently only includes logic and testing.
+* Numbers and other characters are not counted.
 
 
 ## *Setup/Installation Requirements*
