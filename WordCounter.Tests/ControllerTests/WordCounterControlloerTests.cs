@@ -8,12 +8,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace WordCounter
 {
   [TestClass]
-  public class HomeControllerTest : Controller
+  public class WordCounterControllerTest : Controller
   {
     [TestMethod]
-    public void Index_ReturnHomeIndex_true()
+    public void Index_ReturnWordCounterIndex_true()
     {
-      HomeController controller = new HomeController();
+      WordCounterController controller = new WordCounterController();
 
       ActionResult indexView = controller.Index();
 
