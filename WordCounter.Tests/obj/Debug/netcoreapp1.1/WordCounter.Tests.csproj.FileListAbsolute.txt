@@ -1,7 +1,3 @@
-/Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csprojAssemblyReference.cache
-/Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csproj.CoreCompileInputs.cache
-/Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfoInputs.cache
-/Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfo.cs
 /Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 /Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 /Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -12,6 +8,10 @@
 /Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.pdb
 /Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.dll
 /Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.pdb
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csprojAssemblyReference.cache
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csproj.CoreCompileInputs.cache
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfoInputs.cache
+/Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfo.cs
 /Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csproj.CopyComplete
 /Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.dll
 /Users/victoria/Desktop/WordCounter2.Solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.pdb

@@ -5,15 +5,19 @@ namespace WordCounter.Controllers
 {
     public class WordCounterController : Controller
     {
-        [HttpPost("/result")]
-        public ActionResult Result()
+        [HttpGet("/play")]
+        public ActionResult Index()
+        {
+          return View();
+        }
+
+        [HttpPost("/play/result")]
+        public ActionResult PlayGame()
         {
           RepeatCounter newGame = new RepeatCounter(Request.Form["sentence"], Request.Form["word"]);
           int count = newGame.CountRepeatWords();
           newGame.SetWordCount(count);
-          return View("Index", newGame);
+          return View("Result",newGame);
         }
-
-
     }
 }

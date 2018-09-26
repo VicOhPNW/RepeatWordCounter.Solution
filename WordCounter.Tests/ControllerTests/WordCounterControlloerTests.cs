@@ -10,15 +10,22 @@ namespace WordCounter
   [TestClass]
   public class WordCounterControllerTest : Controller
   {
-    [TestMethod]
-    public void Index_ReturnWordCounterIndex_true()
-    {
-      WordCounterController controller = new WordCounterController();
+      [TestMethod]
+      public void Index_ReturnWordCounterIndex_true()
+      {
+        WordCounterController controller = new WordCounterController();
 
-      ActionResult indexView = controller.Index();
+        ActionResult indexView = controller.Index();
 
-      //Assert
-      Assert.IsInstanceOfType(indexView, typeof(ViewResult));
-    }
+        //Assert
+        Assert.IsInstanceOfType(indexView, typeof(ViewResult));
+      }
+
+      // [TestMethod]
+      // public void Index_ReturnWordCounterIndex_string()
+      // {
+      //   //code goes here
+      //   //attempted to test
+      // }
   }
 }
