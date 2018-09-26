@@ -7,6 +7,7 @@ namespace WordCounter.Models
   {
     private string _sentence; //property - user input to be searched
     private string _word;
+    private string _wordCount;
 
     public RepeatCounter(string sentence, string word)  //constructor
     {
@@ -33,6 +34,15 @@ namespace WordCounter.Models
     {
       _word = newWord;
     }
+    public string GetWordCount()
+    {
+      return _wordCount;
+    }
+    public void SetWordCount(int inputResult)
+    {
+      _wordCount = inputResult.ToString();
+    }
+
     //count the number of words
     public int CountRepeatWords()
     {

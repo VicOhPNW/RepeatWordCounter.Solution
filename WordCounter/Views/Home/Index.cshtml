@@ -10,7 +10,19 @@
     <div class="container">
       <h1>Repeated Word Counter</h1>
 
-      <h3><a href="/play">Count my word!</a></h3>
+      <form action="/result" method="post">
+        <div class='form-group'>
+          <label for='sentence'>Enter a sentence.</label>
+          <input id='sentence' name='sentence' class='form-control' type='text'>
+        </div>
+
+        <div class='form-group'>
+          <label for='word'>Enter a word to be searched and counted.</label>
+          <input id='word' name='word' class='form-control' type='text'>
+        </div>
+
+        <button type='submit' class='btn-info'>Go!</button>
+      </form>
     </div>
   </body>
 </html>
